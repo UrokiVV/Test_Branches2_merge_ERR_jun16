@@ -18,7 +18,6 @@ def func(x1):
     return res
 x = 5
 res = func(x)
-print(f"x={x} : func({x}) ==> p={res['p']:.3}, s={res['s']:.4}")
+print(f"\n x={x} : func({x}) ==> p={res['p']:.3}, s={res['s']:.4}")
 print("OK master")
-
 
